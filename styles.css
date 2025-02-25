@@ -1,0 +1,162 @@
+/* สไตล์พื้นฐาน */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo img {
+    width: 220px;  /* ปรับขนาดความกว้าง */
+    height: 600;  /* ให้ขนาดสูงตามอัตราส่วน */
+    max-height: 1000px; /* จำกัดความสูงไม่ให้เกิน 50px */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+}
+
+.product-detail {
+  
+    text-align: center;
+   
+}
+
+.product-detail img {
+    width: 300px; /* ขนาดความกว้างที่ต้องการ */
+    height: auto; /* ปรับอัตราส่วนของรูป */
+    border-radius: 8px; /* มุมโค้งนิดหน่อย */
+    margin-right: 20px; /* ระยะห่างขวาจากข้อความ */
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-card h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product-card p {
+    font-size: 1em;
+    color: #333;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.contact-form button:hover {
+    background-color: #cc5200;
+}
+
+.contact-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.view-detail {
+    display: inline-block;
+    background-color: #ff6600; /* สีส้ม */
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.view-detail:hover {
+    background-color: #cc5200; /* สีส้มเข้มขึ้นเมื่อชี้เมาส์ */
+}
+
+
+button {
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff6347;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
